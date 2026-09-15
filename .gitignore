@@ -1,0 +1,18 @@
+node_modules/
+dist/
+.env*
+!.env.example
+*.log
+.DS_Store
+.idea/
+.vscode/
+.impeccable/
+test-results/
+playwright-report/
+artifacts/
+.npm-cache/
+# Additional user photographs not used by this site remain local.
+photo_1_2026-09-15_20-26-11.jpg
+photo_2_2026-09-15_20-26-11.jpg
+photo_3_2026-09-15_20-26-11.jpg
+photo_6_2026-09-15_20-26-11.jpg
