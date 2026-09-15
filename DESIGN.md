@@ -1,3 +1,70 @@
+---
+name: "Журжень Relax"
+description: "Warm private evening, cream stationery and editorial portraiture."
+colors:
+  ink: "#332823"
+  dark-surface: "#29211e"
+  cream: "#f5efe5"
+  secondary-paper: "#eae0d2"
+  muted: "#766559"
+  line: "#d6c9b9"
+  dark-line: "#514339"
+  gold: "#d7b78a"
+  gold-hover: "#e8cda8"
+  focus: "#ac7944"
+typography:
+  display:
+    fontFamily: "Cormorant Garamond, Georgia, serif"
+    fontSize: "clamp(48px, 5.1vw, 74px)"
+    fontWeight: 400
+    lineHeight: 1.03
+    letterSpacing: "-.035em"
+  heading:
+    fontFamily: "Cormorant Garamond, Georgia, serif"
+    fontSize: "clamp(42px, 4.6vw, 66px)"
+    fontWeight: 400
+    lineHeight: 1.05
+    letterSpacing: "-.035em"
+  body:
+    fontFamily: "Manrope, sans-serif"
+    fontSize: "13px"
+    fontWeight: 400
+    lineHeight: 1.85
+  action:
+    fontFamily: "Manrope, sans-serif"
+    fontSize: "13px"
+    fontWeight: 500
+rounded:
+  square: "0"
+  hero-arch: "230px 230px 0 0"
+spacing:
+  compact: "16px"
+  gutter: "24px"
+  medium: "32px"
+  section-mobile: "64px"
+  section-desktop: "100px"
+components:
+  button-primary:
+    backgroundColor: "{colors.gold}"
+    textColor: "{colors.dark-surface}"
+    typography: "{typography.action}"
+    rounded: "{rounded.square}"
+    padding: "19px 25px"
+  button-primary-hover:
+    backgroundColor: "{colors.gold-hover}"
+  mood-selected:
+    backgroundColor: "{colors.ink}"
+    textColor: "{colors.cream}"
+    padding: "19px"
+  navigation:
+    backgroundColor: "{colors.dark-surface}"
+    textColor: "{colors.cream}"
+    height: "96px"
+  plan:
+    backgroundColor: "{colors.secondary-paper}"
+    padding: "30px 23px"
+    rounded: "{rounded.square}"
+---
 # Журжень Relax — visual system
 
 Warm private evening, cream stationery and editorial portraiture. Product mode: Persuade. The supplied boutique SPA direction is binding; user delegated composition.
